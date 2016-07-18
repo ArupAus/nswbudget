@@ -1,0 +1,71 @@
+.table
+	wrap()
+	border 1px solid #ccc
+	border-collapse collapse
+	width 100%
+	thead
+		border 1px solid #ccc
+	tr
+		border 1px solid #eee
+		cursor pointer
+		&:nth-child(odd)
+			td
+				background-color #f9f9f9
+		th
+			font-size 15px
+			border 1px solid #eee
+			text-align center
+			
+			img
+				vertical-align sub
+				
+				&.pin
+					height 19px
+
+			&.sort
+				background url("images/asc.gif") no-repeat right 5px center
+				background-color rgba(0, 170, 231, 0.17)
+				padding-right 15px
+				&.desc
+					background-image url("images/desc.gif")
+		td
+			padding 3px
+			border 1px solid #eee
+
+			&.spatial
+				width 20px
+				background-image url("images/spatial.png")
+				background-position center center
+				background-size 20px
+				background-repeat no-repeat
+			&.priority
+				width 20px
+				background-image url("images/priority.png")
+				background-position center center
+				background-size 20px
+				background-repeat no-repeat
+			img
+				height 20px
+				width 20px
+				vertical-align middle
+		.table-align-right
+			text-align right
+			padding 0 10px
+		&.selected
+			cursor auto
+			background-color #00AAE7 !important
+			color white !important
+			td
+				background-color #00AAE7 !important
+				color white !important
+				&:first-child
+					background-color #fff !important
+			.number
+				color white
+.table-footer-more
+	text-align center
+
+.abbr
+	font-size 11px
+	vertical-align middle
+	font-weight normal

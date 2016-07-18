@@ -1,0 +1,73 @@
+{
+  "name": "NSWBudget",
+  "version": "2.1.0",
+  "description": "2014-15 NSW Budget Visualisation - Made for NSW Planning & Environment - Using self geocoded NSW Treasury data",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp --require babel-register"
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/ArupAus/nswbudget"
+  },
+  "author": "nswdigital@arup.com",
+  "license" : "ARUP",
+  "dependencies": {
+    "autoprefixer-loader": "^1.2.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "backbone": "^1.3.3",
+    "classnames": "^2.2.5",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.7.1",
+    "css-loader": "^0.23.1",
+    "es5-shim": "^3.4.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.5.1",
+    "get-root": "0.0.2",
+    "gulp": "^3.8.0",
+    "gulp-clean": "^0.3.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-jade": "^0.5.0",
+    "gulp-replace": "^0.3.0",
+    "gulp-stylus": "^2.0.2",
+    "gulp-util": "^2.2.17",
+    "hasha": "^1.0.1",
+    "html5shiv": "git+https://github.com/aFarkas/html5shiv.git",
+    "imports-loader": "^0.6.3",
+    "jade": "^1.3.1",
+    "jquery": "^1.11.1",
+    "json-loader": "^0.5.1",
+    "leaflet": "^0.7.3",
+    "less": "^1.7.0",
+    "less-loader": "^0.7.5",
+    "lodash": "^2.4.1",
+    "lost": "^6.8.0",
+    "numeral": "^1.5.3",
+    "postcss-loader": "^0.9.1",
+    "postcss-modules-values": "^1.1.3",
+    "postcss-nested": "^1.0.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "style-loader": "^0.12.3",
+    "stylus-loader": "^1.1.1",
+    "to-csv": "^0.1.0",
+    "topojson": "^1.6.14",
+    "typedarray": "0.0.6",
+    "underscore": "^1.6.0",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.3.0-beta3",
+    "webpack-dev-server": "^1.4.2"
+  },
+  "babel": {
+    "presets": [
+      "stage-0",
+      "react",
+      "es2015"
+    ]
+  }
+}
