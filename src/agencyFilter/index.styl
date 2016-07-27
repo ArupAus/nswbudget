@@ -1,0 +1,168 @@
+@font-face
+	font-family: 'icon';
+	src: url(./fonts/icon.eot);
+	src: url(./fonts/icon.eot) format('embedded-opentype'), url(./fonts/icon.woff) format('woff'), url(./fonts/icon.ttf) format('truetype'), url(./fonts/icon.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+[class^="icon-"]:before
+[class*=" icon-"]:before
+	font-family: "icon";
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
+ 
+.icon-plus:before
+	content: '\e802'
+.icon-minus:before
+	content: '\e803'
+
+.agencyFilter
+	wrap()
+	color: #333;
+
+.agencyFilter-content
+	clear both
+	border 1px solid #eee
+	border-bottom none
+	background-color #f9f9f9
+	padding 5px
+	position relative
+
+
+
+.agencyFilter-subtitle-hide
+	float left
+	clear both
+.agencyFilter-type-type
+	margin-left 0.5em
+	margin-right 0.5em
+	float left
+
+	&:before
+		content: '- '
+		margin-left 5px
+		margin-right 5px
+
+.agencyFilter-collapse-button
+	color budget-blue
+	text-decoration underline
+	font-style normal
+	font-weight normal
+	speak none
+	display inline-block
+	text-decoration inherit
+	font-variant normal
+	cursor pointer
+	position absolute
+	top 2px
+	right 2px
+.agencyFilter-agency
+	width 100%
+	margin-bottom 15px
+	list-style-type none
+
+.agencyFilter-agency-heading
+	float left
+
+.agencyFilter-agency-clear
+	float right
+	margin-left 15px
+	color #aaa
+	cursor pointer
+.agencyFilter-agency-clearfix
+	clear both
+
+.agencyFilter-agency-list-container
+	clear both
+	overflow-y auto
+
+.agencyFilter-agency-list
+	list-style-type none
+	padding 15px
+	column-width 18em
+	column-gap 4em
+	column-rule-style solid
+	column-rule-width 1px
+	column-rule-color #ccc
+
+
+.agencyFilter-agency-item
+	break-inside avoid
+
+.agencyFilter-agency-item-name
+	margin-left 1em
+
+
+.agencyFilter-heading
+	float left
+.agencyFilter-type
+	width 100%
+
+.agencyFilter-type-rect
+	display inline-block
+	cursor pointer
+	text-align center
+	color white
+	height 10px
+
+.agencyFilter-type-heading
+	float left
+
+.agencyFilter-type-clear
+	float left
+	color #aaa
+	cursor pointer
+
+.agencyFilter-type-list
+	clear both
+	line-height 0
+
+.agencyFilter-type-label
+	margin-top -5px
+.agencyFilter-type-icon-item
+	display table-cell
+	text-align center
+	cursor pointer
+.agencyFilter-type-icon-list
+	clear both
+	display table
+	width 100%
+.agencyFilter-expand
+	width 100%
+	text-align center
+	background-color #f7f7f7
+	line-height 1.5em
+	border 1px solid #ccc
+	border-bottom none
+	color #aaa
+	cursor pointer
+.agencyFilter-title-bar
+	padding-bottom 1em
+	font-weight 300
+	text-align left
+	font-weight normal
+	color #888
+	> span
+		margin-left 1em
+		&:first-child
+			margin-left 0
+	.link
+		color budget-blue
+		cursor pointer
+		padding 0.3em
+	.link:hover
+		border-bottom 2px solid budget-blue
+		
+.agencyFilter-agency-controls
+	padding-top 1em
+	padding-bottom 0

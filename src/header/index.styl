@@ -1,0 +1,97 @@
+// No text & w/ text small
+.waratah
+	height 28px
+	margin-bottom -2px
+	padding-right 10px
+	
+.waratah-text
+	height 40px
+	margin-bottom -7px
+	padding-right 10px
+
+.fullscreen
+	.header
+		position fixed
+		left 0
+		right 0
+		top 0
+		z-index 10
+		width 100%
+		max-width 1140px
+		margin 0 auto
+.header
+	position relative
+	width 100%
+// .header-wrap
+// 	position relative
+// 	wrap()
+// .header-left
+// 	float left
+// 	-webkit-animation from-left 0.3s ease-in
+// .header-logo
+// 	padding 5px 0
+.header-right
+	float right
+	margin-bottom -1em
+	-webkit-animation from-right 0.7s ease-in
+	@media mobile
+		float right
+		margin-top 0
+		line-height 1.8em
+
+.header-bar
+	width 100%
+	padding 0.5em
+	clear both
+	background budget-blue
+	
+.header-bar-wrap
+	wrap()
+	color white
+	font-size 2em
+	line-height 1.1 // Small header
+	@media mobile
+		font-size 1.5em
+		line-height 1.5em
+		padding-left 10px
+
+.header-bar-year
+	font-size 0.7em
+	margin-left 0.5em
+
+.header-link
+	// line-height 1.6em // Smaller header
+	text-align right
+	color white
+	position relative
+	// float left
+	text-transform uppercase
+	font-size 0.7em
+	// margin 10px 10px 0 0 // Larger header
+	margin 0 10px 0 0 // Smaller header
+	padding 0 15px
+	cursor pointer
+	margin-right 1em
+	&:first-child
+		&:before
+			content none
+	&:last-child
+		margin-right 0
+	&:hover
+		transition background 1s ease
+		border-bottom 4px solid #ccc
+	&.active
+		transition background 1s ease
+		border-bottom 4px solid #00aae7
+	// &:before
+	// 	content ''
+	// 	background-image url('sep.png')
+	// 	background-repeat no-repeat
+	// 	position absolute
+	// 	bottom -1 * padding
+	// 	left (-1 * padding) + 4px
+	// 	width 27px
+	// 	height 58px
+		
+.social-media-icon
+	margin-right 0.5em
