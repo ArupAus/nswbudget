@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>community services</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filters" transform="translate(-598.000000, -39.000000)">
+            <g transform="translate(177.000000, 10.000000)" id="community-services">
+                <g transform="translate(421.000000, 29.000000)">
+                    <rect id="Rectangle-4" fill="#488645" fill-rule="evenodd" x="0" y="0" width="28" height="28"></rect>
+                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="12 22 12 16 16 16 16 22 21 22 21 14 24 14 14 5 4 14 7 14 7 22"></polygon>
+                    <polygon id="Shape" points="2 2 26 2 26 26 2 26"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

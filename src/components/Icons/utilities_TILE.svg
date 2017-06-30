@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>utilities</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filters" transform="translate(-882.000000, -39.000000)">
+            <g transform="translate(177.000000, 10.000000)" id="utilities">
+                <g transform="translate(705.000000, 29.000000)">
+                    <g id="Group-2" stroke-width="1" fill="#92C5EB">
+                        <rect id="Rectangle-4-Copy-7" x="0" y="0" width="28" height="28"></rect>
+                    </g>
+                    <path d="M9.09331155,16.2612723 C6.27501249,16.2612723 4,13.9862598 4,11.1679608 C4,9.76104223 5.62959914,8.03123926 6.65381983,6.38789096 C7.67804053,4.74454266 9.09331155,2 9.09331155,2 C9.09331155,2 10.1234952,3.99449018 11.5542001,6.26007265 C12.984905,8.52565511 14.1866231,9.72343602 14.1866231,11.1679608 C14.1866231,13.9862598 11.9116106,16.2612723 9.09331155,16.2612723 Z M19.6398443,10.5222567 L23.7657151,10.5222567 L19.9684186,16.826108 L24.3299999,16.826108 L15.262324,26.2950723 L18.0187667,20.087142 L14.268867,20.087142 L19.6398443,10.5222567 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

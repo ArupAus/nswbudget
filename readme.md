@@ -1,14 +1,27 @@
-NSW Budget
-==========
+# Mapping the NSW Budget 2017-18
+Mapping the NSW Budget for the year 2017-18
 
-Mapping the Budget highlights the key areas of spend. You can use the map to explore projects across planning regions and Local Government Areas (LGA), or filter by agency and project type.
+## Installing
 
-
-
-Install
-==========
-
+```
 npm install
+```
 
-gulp
+## Geometry
 
+The install should build the geometry. To do that by itself, run
+```
+npm run geo
+```
+## Developing
+
+```
+npm run dev
+```
+And visit [http://localhost:3000](http://localhost:3000)
+
+## Building
+
+```
+npm run build
+```

@@ -1,0 +1,15 @@
+{
+  "title": "Mapping the NSW Budget",
+  "treasuryLink": "Back to 2017-18 NSW Budget",
+  "search heading": "Search for a project or location",
+  "project type heading": "Select a project type",
+  "sidebar": "Click on a project pin to view more information",
+  "projectagency": "Delivery Agency:",
+  "projectcost": "Commitment for the 2017-18 Financial year:",
+  "projectetc": "Estimated Total Cost:",
+  "sidebar_list_count": "{count, number} {name} {count, plural, one { project } other { projects } }",
+  "search_label": "Search for a project or location",
+  "filter_label": "Select a project type",
+  "instruction": "Click on a project to view more information",
+  "view_on_map": "View on map"
+}
