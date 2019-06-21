@@ -16,7 +16,6 @@
     "babel-register": "^6.22.0",
     "babel-watch": "^2.0.5",
     "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.26.1",
     "csv-parse": "^1.2.0",
     "d3-array": "^1.2.0",
     "d3-format": "^1.2.0",
@@ -64,7 +63,11 @@
     "webpack": "^2.6.1"
   },
   "babel": {
-    "presets": ["es2015", "react", "stage-0"]
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
   },
   "eslintConfig": {
     "extends": "airbnb",
@@ -77,43 +80,117 @@
       "jest": true
     },
     "rules": {
-      "import/no-extraneous-dependencies": [0],
-      "import/no-unresolved": [0],
-      "import/extensions": [0],
-      "linebreak-style": [0],
-      "semi": [0],
-      "no-confusing-arrow": [0],
-      "comma-dangle": [0],
-      "react/jsx-filename-extension": [0],
-      "import/no-named-as-default": [0],
-      "import/no-named-as-default-member": [0],
-      "react/prop-types": [0],
-      "max-len": [0],
-      "no-class-assign": [0],
-      "eqeqeq": [0],
-      "no-shadow": [0],
-      "quotes": [0],
-      "arrow-parens": [0],
-      "arrow-body-style": [0],
-      "no-plusplus": [0],
-      "react/prefer-stateless-function": [0],
-      "consistent-return": [0],
-      "import/prefer-default-export": [0],
-      "react/sort-comp": [0],
-      "react/no-string-refs": [0],
-      "prefer-arrow-callback": [0],
-      "no-inner-declarations": [0],
-      "no-return-assign": [0],
-      "no-underscore-dangle": [0],
-      "no-param-reassign": [0],
-      "one-var": [0],
-      "no-unused-expressions": [0],
-      "no-use-before-define": [0],
-      "react/no-find-dom-node": [0],
-      "no-extend-native": [0],
-      "jsx-a11y/no-static-element-interactions": [0],
-      "jsx-a11y/label-has-for": [0],
-      "func-names": [0]
+      "import/no-extraneous-dependencies": [
+        0
+      ],
+      "import/no-unresolved": [
+        0
+      ],
+      "import/extensions": [
+        0
+      ],
+      "linebreak-style": [
+        0
+      ],
+      "semi": [
+        0
+      ],
+      "no-confusing-arrow": [
+        0
+      ],
+      "comma-dangle": [
+        0
+      ],
+      "react/jsx-filename-extension": [
+        0
+      ],
+      "import/no-named-as-default": [
+        0
+      ],
+      "import/no-named-as-default-member": [
+        0
+      ],
+      "react/prop-types": [
+        0
+      ],
+      "max-len": [
+        0
+      ],
+      "no-class-assign": [
+        0
+      ],
+      "eqeqeq": [
+        0
+      ],
+      "no-shadow": [
+        0
+      ],
+      "quotes": [
+        0
+      ],
+      "arrow-parens": [
+        0
+      ],
+      "arrow-body-style": [
+        0
+      ],
+      "no-plusplus": [
+        0
+      ],
+      "react/prefer-stateless-function": [
+        0
+      ],
+      "consistent-return": [
+        0
+      ],
+      "import/prefer-default-export": [
+        0
+      ],
+      "react/sort-comp": [
+        0
+      ],
+      "react/no-string-refs": [
+        0
+      ],
+      "prefer-arrow-callback": [
+        0
+      ],
+      "no-inner-declarations": [
+        0
+      ],
+      "no-return-assign": [
+        0
+      ],
+      "no-underscore-dangle": [
+        0
+      ],
+      "no-param-reassign": [
+        0
+      ],
+      "one-var": [
+        0
+      ],
+      "no-unused-expressions": [
+        0
+      ],
+      "no-use-before-define": [
+        0
+      ],
+      "react/no-find-dom-node": [
+        0
+      ],
+      "no-extend-native": [
+        0
+      ],
+      "jsx-a11y/no-static-element-interactions": [
+        0
+      ],
+      "jsx-a11y/label-has-for": [
+        0
+      ],
+      "func-names": [
+        0
+      ]
     }
   },
   "devDependencies": {
@@ -122,8 +199,9 @@
     "babel-jest": "^18.0.0",
     "babel-preset-react-native": "^1.9.1",
     "babel-register": "^6.18.0",
+    "css-loader": "^3.0.0",
     "enzyme": "^2.8.2",
-    "eslint": "^3.13.1",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-import-resolver-webpack": "^0.8.0",
     "eslint-plugin-import": "^2.2.0",
@@ -163,7 +241,9 @@
   "homepage": "https://github.com/ArupAus/nswbudget#readme",
   "jest": {
     "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-    "collectCoverageFrom": ["src/**/*.js"],
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
     "transform": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileTransform.js",
       "^.+\\.js$": "babel-jest"
